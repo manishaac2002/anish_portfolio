@@ -1,54 +1,50 @@
 const NavBar = () => {
   return (
     <>
-      <div className=" bg-navyBlue min-h-screen rounded-b-4xl">
+      <div className="border border-black h-[500px] md:h-[800px] bg-navyBlue">
 
+        {/* email */}
         <div className="flex">
-            {/* email address */}
-          <div className="flex m-10 box-border bg-glass h-16 w-72 px-3 py-3 rounded-full sm:p-2">
-            <p className="text-chalk-100 px-2 py-2">example@email.com</p>
 
-            <button className="bg-cloud text-coal ml-2 px-6  rounded-3xl ">
-              Copy
+        <div className="flex m-6 md:m-10 box-border bg-glass h-12 w-56 md:w-64 rounded-3xl">
+          
+            <p className="text-chalk-200 px-2 md:px-4 py-3">example@gamil.com</p>
+           
+              <div className="flex ">
+
+            <button className="hidden md:block bg-cloud text-coal px-3 py-1 rounded-full h-8 mt-2">Copy</button>
+           
+            <button className="md:hidden ">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#363636" className="h-8 w-8 bg-cloud rounded-lg p-1">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75" />
+              </svg>
             </button>
-          </div>
-
-            {/* nav bar */}
-          <div className="flex  ml-auto px-10 py-3 ">
-            <p className="text-chalk-200 font-medium px-8 py-4 mt-8 h-16 rounded-full hover:bg-glass hover:text-cloud sm:px-5">
-              Services</p>
-            <p className="text-chalk-200 font-medium px-8 py-4 mt-8 h-16 rounded-full hover:bg-glass hover:text-cloud sm:px-5">
-              Research</p>
-            <p className="text-chalk-200 font-medium px-8 py-4 mt-8 h-16 rounded-full hover:bg-glass hover:text-cloud sm:px-5">
-              Project</p>
-            <p className="text-chalk-200 font-medium px-8 py-4 mt-8 h-16 rounded-full hover:bg-glass hover:text-cloud sm:px-5">
-              Blog</p>
-
-          </div >
+              </div>
+        </div>
+        {/* ------------------------------------------------------------------------------------ */}
+        {/* menu */}
+        <div className="  flex ml-auto mt-5 md:mt-10">
+        
+        <p className="text-chalk-200">test</p>
+        <p className="text-chalk-200">test</p>
+        <p className="text-chalk-200">test</p>
+        <p className="text-chalk-200">test</p>
 
         </div>
-
-        <div className="mx-auto my-24 p-4 ">
-          {/* image */}
-          <div className="w-72 h-72 rounded-full mx-auto ">
-            <img className="" src="./AnishBalaSachin.webp" alt="" />
-          </div>
-          {/* about content */}
-          <div className="text-center ">
-            <p className="text-chalk-200 text-4xl flex justify-center text-center">
-              Transforming ideas into impactful<br />
-              products, brands, and digital<br />
-              experiences.
-            </p>
-            <button className="bg-cloud text-coal px-6 py-3 rounded-3xl mt-8 mb-36">
-              Some text
-            </button>
-          </div>
-
         </div>
 
+        {/* image */}
+        <div>
+          <div>
+            {/*  */}
+          </div>
+          <div>
+            {/* about content */}
+          </div>
+        </div>
       </div>
-      
+
+
     </>
   )
 }
