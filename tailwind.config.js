@@ -17,7 +17,8 @@ export default {
         glass: "#4D545B"
       },
       borderRadius: {
-        '4xl': '194px',
+        '4xl': '100px',
+        '5xl': '194px',
       },
     },
   },
