@@ -6,3 +6,11 @@
 .ref{
      @apply text-chalk-200 text-lg px-8 py-2 font-medium rounded-full hover:bg-glass hover:text-cloud
 }
+
+.blueContainer{
+      @apply h-[600px] md:h-[800px] bg-navyBlue rounded-b-4xl md:rounded-b-5xl
+}
+
+.whiteContainerSm{
+     @apply h-[400px] md:h-[600px] bg-chalk-300 rounded-b-4xl md:rounded-b-5xl border-b-2 border-gray-400
+}

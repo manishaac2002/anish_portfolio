@@ -1,4 +1,5 @@
 import AboutMe from "./pages/AboutMe"
+import Company from "./pages/Company"
 
 const App=()=> {
 
@@ -7,6 +8,7 @@ const App=()=> {
     <>
       <div>
         <AboutMe />
+        <Company />
       </div>
     </>
   )
