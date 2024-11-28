@@ -1,5 +1,6 @@
 import NavBar from "../component/NavBar"
-import AnishBalaSachinPic from "../images/AnishBalaSachin.webp"
+import AnishBalaSachinPic from "../images/anish.png"
+
 
 const AboutMe = () => {
     return (
@@ -11,7 +12,7 @@ const AboutMe = () => {
                 {/* image */}
                 <div className="my-24 mx-auto">
 
-                    <div className="w-56 md:w-96 mx-auto ">
+                    <div className="w-56 md:w-96 lg:w-72 mx-auto ">
                         <img className="" src={AnishBalaSachinPic} alt="Anish Bala Sachin" />
                     </div>
 

@@ -1,7 +1,5 @@
-import Alpha from "../images/Alpha.webp"
-import CartRabbit from "../images/CartRabbit.webp"
-import Vichithram from "../images/Vichithram.webp"
-import Atre from "../images/Atre.webp"
+import logo from "../images/logo.webp"
+
 const Company = () => {
   return (
     <div className="whiteContainerSm font-sans">
@@ -12,10 +10,7 @@ const Company = () => {
         </div>
         <div className="flex flex-wrap justify-center mt-24 sm:grid-cols-2 sm:gap-12 md:grid-cols-4 md:gap-16 lg:gap-56">
             {/* company image */}
-            <img className="" src={Alpha} alt="Alpha" />
-            <img className="" src={CartRabbit} alt="CartRabbit" />
-            <img className="" src={Vichithram} alt="Vichithram" />
-            <img className="" src={Atre} alt="Atre" />
+            <img className="md:px-14 lg:px-20 xl:px-48" src={logo} alt="logo" />
         </div>
     </div>
   )
