@@ -10,7 +10,11 @@
 .blueContainer{
       @apply h-[600px] md:h-[800px] bg-navyBlue rounded-b-4xl md:rounded-b-5xl
 }
+.blueContainerSm{
+      @apply h-[400px] md:h-[800px] bg-navyBlue rounded-b-4xl md:rounded-b-5xl
+}
+
 
 .whiteContainerSm{
-     @apply h-[400px] md:h-[600px] bg-chalk-300 rounded-b-4xl md:rounded-b-5xl border-b-2 border-gray-400
+     @apply h-[400px] md:h-[600px] bg-chalk-300 rounded-b-4xl md:rounded-b-5xl 
 }

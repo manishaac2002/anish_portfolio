@@ -5,7 +5,7 @@ import AnishBalaSachinPic from "../images/anish.png"
 const AboutMe = () => {
     return (
         <>
-            <div className="h-[600px] md:h-[800px] bg-navyBlue rounded-b-4xl md:rounded-b-5xl">
+            <div className="blueContainer">
 
                 <NavBar />
 
