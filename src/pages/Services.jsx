@@ -11,20 +11,36 @@ const Services = () => {
 
       </div>
 
-      <div className="flex justify-center gird-cols-1 md:grid-cols-2 gap-96">
+      <div className="flex justify-center gird-cols-1 md:grid-cols-2 gap-20">
         {/* content */}
-        <div className="text-chalk-200 text-2xl md:text-3xl pt-16 ">
-          <p>Research</p>
+        <div className="pt-16">
+          <p className="text-chalk-200 text-3xl md:text-5xl font-semibold">Research</p>
+          <p className="mt-4 text-chalk-200 text-2xl md:text-2xl ">
+            Turning research into actionable <br/>
+            ideas for meaningful solutions.
+          </p>
         </div>
-        <div className="text-chalk-200 text-2xl md:text-3xl pt-16 ">
-          <p>Product design</p>
+        <div className="pt-16">
+          <p className="text-chalk-200 text-3xl md:text-5xl font-semibold">Product design</p>
+          <p className="mt-4 text-chalk-200 text-2xl md:text-2xl ">
+          Designing user-focused products <br/>
+          with creativity and precision.
+         </p>
         </div>
-        <div className="text-chalk-200 text-2xl md:text-3xl pt-16 ">
-          <p>UI/UX</p>
+        <div className="pt-16">
+          <p className="text-chalk-200 text-3xl md:text-5xl font-semibold">UI/UX</p>
+          <p className="mt-4 text-chalk-200 text-2xl md:text-2xl ">
+          Creating intuitive and visually <br/>
+          engaging user experiences.
+            </p>
         </div>
-        <div className="text-chalk-200 text-2xl md:text-3xl pt-16 ">
-          <p>Development</p>
+        <div className="pt-16">
+          <p className="text-chalk-200 text-3xl md:text-5xl font-semibold">Development</p>
+          <p className="mt-4 text-chalk-200 text-2xl md:text-2xl ">
+            Developing innovative solutions with a <br/>
+            focus on performance and quality.</p>
         </div>
+
       </div>
     </div>
   )
