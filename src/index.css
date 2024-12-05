@@ -11,6 +11,10 @@
       @apply h-[700px] md:h-[800px] bg-navyBlue rounded-b-4xl md:rounded-b-5xl
 }
 
-.whiteContainer{
+.whiteContainerSm{
      @apply h-[400px] md:h-[600px] bg-chalk-300 rounded-b-4xl md:rounded-b-5xl 
+}
+
+.whiteContainer{
+     @apply h-[700px] md:h-[800px] bg-chalk-300 rounded-b-4xl md:rounded-b-5xl 
 }
