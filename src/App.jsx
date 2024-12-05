@@ -1,5 +1,6 @@
 import AboutMe from "./pages/AboutMe"
 import Company from "./pages/Company"
+import Contact from "./pages/Contact"
 import Experiences from "./pages/Experiences"
 import Project from "./pages/Project"
 import Research from "./pages/Research"
@@ -18,6 +19,7 @@ const App=()=> {
         <Project />
         <Company />
         <Experiences/>
+        <Contact/>
       </div>
     </>
   )

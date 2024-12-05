@@ -10,13 +10,14 @@
 .blueContainer{
       @apply h-[700px] md:h-[800px] bg-navyBlue rounded-b-4xl md:rounded-b-5xl
 }
+
 .blueContainerSm{
       @apply h-[300px] md:h-[400px] bg-navyBlue rounded-b-4xl md:rounded-b-5xl
 }
+
 .blueContainerLg{
       @apply h-[800px] md:h-[900px] bg-navyBlue rounded-b-4xl md:rounded-b-5xl
 }
-
 
 .whiteContainerSm{
      @apply h-[400px] md:h-[600px] bg-chalk-300 rounded-b-4xl md:rounded-b-5xl 
