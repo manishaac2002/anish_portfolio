@@ -11,7 +11,7 @@ const Services = () => {
       <div className="flex justify-center">
         {/* services button */}
         <div className="relative border-b-2 border-gray-300 w-3/4 h-12 md:h-28">
-          <button className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 rotate-6 bg-cloud text-coal font-medium px-5 py-3 rounded-full ">
+          <button className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 rotate-6 bg-cloud text-coal md:font-semibold px-4 md:px-5 py-2 md:py-3  rounded-full ">
             Services
           </button>
         </div>
