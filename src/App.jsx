@@ -11,6 +11,7 @@ const App=()=> {
         <AboutMe />
         <Company />
         <Services />
+        <Company />
       </div>
     </>
   )

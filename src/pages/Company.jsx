@@ -5,7 +5,7 @@ const Company = () => {
   return (
     <div className="bg-navyBlue">
 
-    <div className="whiteContainerSm font-sans">
+    <div className="whiteContainer font-sans">
         <div className=" text-center">
             {/* company quote */}
             <p className="text-chalk-400 text-2xl md:text-3xl mt-16 md:mt-24">From Code to Collaboration</p>

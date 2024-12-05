@@ -7,41 +7,37 @@ const Services = () => {
         <p className="text-chalk-200 text-2xl md:text-3xl pt-16 ">Empathy is the foundation of exceptional</p>
         <p className="text-chalk-100 text-5xl md:text-8xl pt-6">Services</p>
       </div >
-      <div className="border-b-2 border-chalk-200 w-3/4 mx-auto pb-20 ">
 
+      <div className="flex justify-center">
+        {/* services button */}
+        <div className="relative border-b-2 border-gray-300 w-3/4 h-12 md:h-28">
+          <button className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 rotate-6 bg-cloud text-coal font-medium px-5 py-3 rounded-full ">
+            Services
+          </button>
+        </div>
       </div>
 
-      <div className="flex justify-center gird-cols-1 md:grid-cols-2 gap-20">
-        {/* content */}
-        <div className="pt-16">
-          <p className="text-chalk-200 text-3xl md:text-5xl font-semibold">Research</p>
-          <p className="mt-4 text-chalk-200 text-2xl md:text-2xl ">
-            Turning research into actionable <br/>
-            ideas for meaningful solutions.
-          </p>
-        </div>
-        <div className="pt-16">
-          <p className="text-chalk-200 text-3xl md:text-5xl font-semibold">Product design</p>
-          <p className="mt-4 text-chalk-200 text-2xl md:text-2xl ">
-          Designing user-focused products <br/>
-          with creativity and precision.
-         </p>
-        </div>
-        <div className="pt-16">
-          <p className="text-chalk-200 text-3xl md:text-5xl font-semibold">UI/UX</p>
-          <p className="mt-4 text-chalk-200 text-2xl md:text-2xl ">
-          Creating intuitive and visually <br/>
-          engaging user experiences.
-            </p>
-        </div>
-        <div className="pt-16">
-          <p className="text-chalk-200 text-3xl md:text-5xl font-semibold">Development</p>
-          <p className="mt-4 text-chalk-200 text-2xl md:text-2xl ">
-            Developing innovative solutions with a <br/>
-            focus on performance and quality.</p>
-        </div>
+    <div className="mt-16  md:mt-24 md:grid md:gap-8 grid-cols-2 xl:grid xl:grid-cols-4 md:mx-20">
 
-      </div>
+    <div className="text-chalk-300 pt-4 ml-5">
+      <p className="text-2xl font-semibold md:text-3xl lg:text-4xl ">Research</p>
+      <p className="text-chalk-200 md:text-2xl  mt-3">Research driving meaningful solutions.</p>
+    </div>
+    <div className="text-chalk-300 pt-4 ml-5">
+      <p className="text-2xl font-semibold md:text-3xl lg:text-4xl">Product design</p>
+      <p className="text-chalk-200 md:text-2xl  mt-3">Crafting intuitive, precise designs</p>
+    </div>
+    <div className="text-chalk-300 pt-4 ml-5">
+      <p className="text-2xl font-semibold md:text-3xl lg:text-4xl">UI/UX</p>
+      <p className="text-chalk-200 md:text-2xl  mt-3">Designing intuitive, engaging experiences.</p>
+    </div>
+    <div className="text-chalk-300 pt-4 ml-5">
+      <p className="text-2xl font-semibold md:text-3xl lg:text-4xl">Development</p>
+      <p className="text-chalk-200 md:text-2xl  mt-3">Building innovative, high-quality solutions.</p>
+    </div>
+
+    </div>
+      
     </div>
   )
 }
