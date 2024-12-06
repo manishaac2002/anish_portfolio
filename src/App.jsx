@@ -1,4 +1,5 @@
 import AboutMe from "./pages/AboutMe"
+import Blog from "./pages/Blog"
 import Company from "./pages/Company"
 import Contact from "./pages/Contact"
 import Experiences from "./pages/Experiences"
@@ -17,7 +18,7 @@ const App=()=> {
         <Services />
         <Research />
         <Project />
-        <Company />
+        <Blog />
         <Experiences/>
         <Contact/>
       </div>
