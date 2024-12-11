@@ -1,5 +1,5 @@
 import NavBar from "../component/NavBar"
-import AnishBalaSachinPic from "../images/anish.png"
+import AnishBalaSachinPic from "../images/AnishBalaSachin.webp"
 
 
 const AboutMe = () => {
