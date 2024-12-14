@@ -7,7 +7,7 @@ import Project from "./pages/Project"
 import Research from "./pages/Research"
 import Services from "./pages/Services"
 
-const App=()=> {
+const App = () => {
 
 
   return (
@@ -19,8 +19,8 @@ const App=()=> {
         <Research />
         <Project />
         <Blog />
-        <Experiences/>
-        <Contact/>
+        <Experiences />
+        <Contact />
       </div>
     </>
   )
