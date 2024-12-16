@@ -4,7 +4,7 @@ import extension from '../images/Extension.webp'
 const Project = () => {
   return (
     <div className="blueContainerLg">
-      
+
       {/* company quote */}
       <div className=" text-center">
         <p className="text-chalk-200 text-2xl md:text-3xl pt-10 md:pt-16 ">Design Develop Deliver in </p>
@@ -32,3 +32,10 @@ const Project = () => {
 }
 
 export default Project
+
+
+{/* <iframe src="https://www.behance.net/embed/project/144422749?ilo0=1" height="316" width="404" allowfullscreen allow="clipboard-write" ></iframe> */ }
+
+{/* <iframe src="https://www.behance.net/embed/project/147368377?ilo0=1" height="316" width="404" allowfullscreen allow="clipboard-write" ></iframe> */ }
+
+{/* <iframe src="https://www.behance.net/embed/project/146993251?ilo0=1" height="316" width="404" allowfullscreen allow="clipboard-write" ></iframe> */ }
