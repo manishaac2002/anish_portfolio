@@ -10,7 +10,7 @@ const Services = () => {
       </div >
 
       {/* skills */}
-      <div className="mt-1 ml-6 md:ml-16 md:mt-4 xl:mt-24 md:grid md:gap-8 grid-cols-2 xl:grid xl:grid-cols-4 md:mx-20 ">
+      <div className="mt-3 ml-6 md:ml-16 md:mt-4 xl:mt-24 md:grid md:gap-8 grid-cols-2 xl:grid xl:grid-cols-4 md:mx-20 ">
         <div className="text-chalk-300 pt-4 ml-5">
           <svg
             className="w-10 md:w-12 lg:w-16"
@@ -21,13 +21,13 @@ const Services = () => {
               stroke="#FDFDFD"
               strokeWidth="0.65" />
           </svg>
-          <p className="text-2xl font-semibold md:text-3xl lg:text-4xl pt-4 ">
+          <p className="text-2xl font-semibold md:text-3xl lg:text-4xl pt-2 md:pt-8 ">
             Research</p>
-          <p className="text-chalk-200 md:text-2xl  mt-3">
+          <p className="text-chalk-200 md:text-2xl mt-1 md:mt-3 text-xs">
             Research driving meaningful solutions.</p>
         </div>
 
-        <div className="text-chalk-300 pt-4 ml-5">
+        <div className="text-chalk-300 pt-8 ml-5">
           <svg className="w-10 md:w-12 lg:w-16" viewBox="0 0 39 30" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.3888 26.2217C15.1635 26.2169 14.9493 26.1229 14.7934 25.9602C14.6374 25.7976 14.5524 25.5796 14.5571 25.3543L14.5972 23.4487C14.602 23.2234 14.696 23.0092 14.8587 22.8533C15.0214 22.6973 15.2393 22.6124 15.4646 22.6171L22.1763 22.7582C22.4016 22.763 22.6158 22.8571 22.7718 23.0197C22.9277 23.1824 23.0127 23.4003 23.008 23.6256L22.9679 25.5312C22.9631 25.7565 22.8691 25.9707 22.7064 26.1266C22.5438 26.2826 22.3258 26.3676 22.1005 26.3628L15.3888 26.2217Z" stroke="#FDFDFD" strokeWidth="0.850925" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M21.8248 22.7512L25.2327 17.8649C25.3254 17.732 25.3781 17.5753 25.3847 17.4134C25.3913 17.2514 25.3515 17.091 25.2699 16.951L19.8713 7.24131C19.798 7.11545 19.6936 7.01053 19.5682 6.93661C19.4427 6.8627 19.3003 6.82227 19.1547 6.81921C19.0091 6.81614 18.8652 6.85055 18.7367 6.91913C18.6082 6.9877 18.4995 7.08814 18.421 7.21081L12.6189 16.6849C12.5315 16.8214 12.485 16.98 12.4848 17.1421C12.4845 17.3042 12.5307 17.4629 12.6177 17.5996L15.8171 22.6248M19.1545 6.82775L18.9704 15.5821" stroke="#FDFDFD" strokeWidth="0.850925" strokeLinecap="round" strokeLinejoin="round" />
@@ -54,25 +54,23 @@ const Services = () => {
             </mask>
             <rect x="17.0176" width="4.08444" height="4.08444" rx="0.34037" fill="white" stroke="#FDFDFD" strokeWidth="1.70185" mask="url(#path-9-inside-5_388_34)" />
           </svg>
-          <p className="text-2xl font-semibold md:text-3xl lg:text-4xl pt-4">
+          <p className="text-2xl font-semibold md:text-3xl lg:text-4xl pt-2 md:pt-8">
             Product design</p>
-          <p className="text-chalk-200 md:text-2xl  mt-3">
+          <p className="text-chalk-200 md:text-2xl mt-1 md:mt-3 text-xs">
             Crafting intuitive, precise designs</p>
         </div>
 
         <div className="text-chalk-300 pt-4 ml-5">
-          <svg className="w-10 md:w-12 lg:w-16" viewBox="0 0 218 204" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M26.4205 70.4944C27.4773 68.585 29.4876 67.4 31.67 67.4H46.5336C48.7162 67.4 50.7266 68.5852 51.7834 70.4948L73.4497 109.646C73.9418 110.536 74.2 111.535 74.2 112.551V194C74.2 197.314 71.5137 200 68.2 200H10C6.68629 200 4 197.314 4 194V112.552C4 111.535 4.25823 110.535 4.75046 109.646L26.4205 70.4944ZM23.5 50C23.5 46.6863 26.1863 44 29.5 44H48.7C52.0137 44 54.7 46.6863 54.7 50V61.4C54.7 64.7137 52.0137 67.4 48.7 67.4H29.5C26.1863 67.4 23.5 64.7137 23.5 61.4V50Z" stroke="#FDFDFD" strokeWidth="6.63" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M70 195V173.176C70 172.293 68.9291 171.847 68.2837 172.45C56.3844 183.564 50.7885 184.117 42.9744 176.71C31.5528 165.119 23.6585 165.031 8.65559 170.572C8.26453 170.717 8 171.092 8 171.509V195C8 195.552 8.44771 196 9 196H69C69.5523 196 70 195.552 70 195Z" stroke="#FDFDFD" strokeWidth="3" />
-            <path d="M214.5 121.672V95.2314C214.5 94.2998 213.172 93.7027 212.392 94.211C207.73 97.2465 194.673 102.379 166.75 92.5014C133.122 80.6058 121.055 90.4803 119.247 92.2439C119.078 92.409 119 92.6312 119 92.8677V121.714C119 123.223 119.311 124.716 119.912 126.1L143.739 180.9C143.897 181.265 144.258 181.501 144.656 181.501H188.35C188.745 181.501 189.103 181.268 189.264 180.907L213.556 126.131C214.178 124.727 214.5 123.208 214.5 121.672Z" stroke="#FDFDFD" strokeWidth="3" />
-            <path d="M134.001 186H200.001V196H134.001V186Z" fill="#FDFDFD" />
-            <path d="M134.001 186H200.001V196H134.001V186Z" stroke="#FDFDFD" strokeWidth="6.63" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M186.6 184.579H145.6L120.748 129.102C119.596 126.53 119 123.743 119 120.925V4H214.6V120.721C214.6 123.671 213.948 126.583 212.69 129.251L186.6 184.579ZM199.501 198.5H132.501V184.579H199.501V198.5Z" stroke="#FDFDFD" strokeWidth="6.63" strokeLinecap="round" strokeLinejoin="round" />
-            <rect x="146" y="192" width="41" height="10" rx="1" fill="#D9D9D9" />
+          <svg className="w-10 md:w-12 lg:w-16 " viewBox="0 0 207 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M188.501 184.579L121.5 184.5L121.501 198.5M188.501 184.579V198.5H121.501M188.501 184.579H121.501V198.5M31.67 66.4H46.5336M31.67 66.4H29.5C26.1863 66.4 23.5 63.7137 23.5 60.4V49C23.5 45.6863 26.1863 43 29.5 43H48.7C52.0137 43 54.7 45.6863 54.7 49V60.4C54.7 63.7137 52.0137 66.4 48.7 66.4H46.5336M31.67 66.4C29.4876 66.4 27.4773 67.585 26.4205 69.4944L4.75046 108.646C4.25823 109.535 4 110.535 4 111.552V154M46.5336 66.4C48.7162 66.4 50.7266 67.5852 51.7834 69.4948L73.4497 108.646C73.9418 109.536 74.2 110.535 74.2 111.551V193C74.2 196.314 71.5137 199 68.2 199H10C6.68629 199 4 196.314 4 193V154M4 154C4 154 12.6378 132.985 39 148.501C65.3622 164.017 73.4379 154.51 73.5 154.5M203.5 95.2314V121.672C203.5 123.208 203.178 124.727 202.556 126.131L178.264 180.907C178.103 181.268 177.745 181.501 177.35 181.501H133.656C133.258 181.501 132.897 181.265 132.739 180.9L108.912 126.1C108.311 124.716 108 123.223 108 121.714V92.8677C108 92.6312 108.078 92.409 108.247 92.2439C110.055 90.4803 122.122 80.6058 155.75 92.5014C183.673 102.379 196.73 97.2464 201.392 94.211C202.172 93.7027 203.5 94.2998 203.5 95.2314ZM175.6 184.579H134.6L109.748 129.102C108.596 126.53 108 123.743 108 120.925V4H203.6V120.721C203.6 123.671 202.948 126.583 201.69 129.251L175.6 184.579ZM147 198H166V201H147V198Z"
+              stroke="#FDFDFD"
+              strokeWidth="6.63"
+              strokeLinecap="round"
+              strokeLinejoin="round" />
           </svg>
-          <p className="text-2xl font-semibold md:text-3xl lg:text-4xl pt-4">
+          <p className="text-2xl font-semibold md:text-3xl lg:text-4xl pt-2 md:pt-8">
             UI/UX</p>
-          <p className="text-chalk-200 md:text-2xl mt-3">
+          <p className="text-chalk-200 md:text-2xl mt-1 md:mt-3 text-xs">
             Designing intuitive, engaging experiences.</p>
         </div>
 
@@ -82,9 +80,9 @@ const Services = () => {
               stroke="#FDFDFD"
               strokeWidth="0.85" />
           </svg>
-          <p className="text-2xl font-semibold md:text-3xl lg:text-4xl pt-4">
+          <p className="text-2xl font-semibold md:text-3xl lg:text-4xl pt-2 md:pt-8">
             Development</p>
-          <p className="text-chalk-200 md:text-2xl  mt-3">
+          <p className="text-chalk-200 md:text-2xl mt-1 md:mt-3 text-xs">
             Building innovative, high-quality solutions.</p>
         </div>
 
