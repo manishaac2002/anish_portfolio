@@ -18,6 +18,7 @@ const Company = () => {
           <img className="md:hidden px-8 " src={logoSm} alt="logo" />
         </div>
       </div>
+      
     </div>
   )
 }
